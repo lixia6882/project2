@@ -1,0 +1,21 @@
+<view class="content">
+    <view class="">适配器状态：<text class="status">{{ status }}</text></view>
+    <view class="">是否搜索:<text>{{sousuo}}</text></view>
+    <view class="">连接状态:<text>{{connectedDeviceId}}</text></view>
+    <view class="">消息：<text class="msg">{{ msg }} </text></view>  
+    <view class="venues_list">展示所有设备:
+      <block wx:for="{{devices}}">
+        <view class="name">设备名称:<text>{{item.name}}</text></view>
+        <view class="">设备ID:<text>{{item.deviceId}}</text></view>
+        <view class="">连接状态:<text>{{connectedDeviceId == item.deviceId?'已连接':'未连接'}}</text></view>
+        <button type="warn" class="button" id="{{item.deviceId}}" bindtap="connectTO">连接</button>   
+      </block>
+    </view>
+    <button type="primary" class="button" bindtap="lanya1">1.初始化蓝牙适配器</button>
+    <button type="primary" class="button" bindtap="lanya2">2.本机蓝牙适配状态</button> 
+    <button type="primary" class="button" bindtap="lanya3">3.搜索周边设备</button>
+    <button type="primary" class="button" bindtap="lanya4">4.获取设备后在列表中连接</button>  
+    <button type="primary" class="button" bindtap="lanya5">5.停止搜索周边设备</button>
+    <button type="primary" class="button" bindtap="lanya6">6.获取连接设备所有service</button>
+    <button type="primary" class="button" bindtap="lanya7">7.获取连接设备所有特征值</button>
+</view>

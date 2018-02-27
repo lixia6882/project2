@@ -1,0 +1,61 @@
+.log-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: #f0f0f0;
+  position: relative;
+}
+.number{
+  width: 86%;
+  height: 104rpx;
+  background: #fff;
+  border-radius: 30rpx;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50rpx;
+  line-height: 104rpx;
+  padding: 0 0rpx 0 20rpx;
+}
+.inputs{
+  flex: 1;
+  height: 100%;
+  padding:0 20rpx;
+  color: #333;
+}
+.xieyi{
+  margin: 0 auto;
+  width: 86%;
+  display: flex;
+  font-size: 29rpx;
+  margin-top: 55rpx;
+}
+.imags{
+  width: 36rpx;
+  height: 36rpx;
+  margin-right: 10rpx;
+  position: relative;
+}
+.views{
+  color:#f23861;
+}
+.ima{
+  width: 184rpx;
+  height: 184rpx;
+  position: absolute;
+  bottom: 78rpx;
+  left: 50%;
+  margin-left: -92rpx;
+}
+.btns{
+   width: 80%;
+   height:78rpx;
+   background: #ccc;
+   color: #fff;
+   margin: 0 auto;
+   margin-top: 160rpx;
+   border-radius: 30rpx;
+   text-align: center;
+   line-height: 76rpx;
+
+  }

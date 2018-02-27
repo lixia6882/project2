@@ -1,0 +1,8 @@
+{
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#fda4ab",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": " 微信商城",
+  "enablePullDownRefresh": true,
+  "backgroundColor": "#f0145a"
+}

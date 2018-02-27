@@ -1,0 +1,15 @@
+<view class="container">
+ <image src="../../images/logo_gray.png" class="ima"></image>
+ <navigator open-type="navigateBack"></navigator>
+ <form bindsubmit="showTitle">
+ <view class="number">
+   手机号码<input type="number" placeholder="请输入11位手机号码" placeholder-style="#333" maxlength="11" class="inputs" value="{{phone}}" name="phone"/>
+ </view>
+ <view class="next">
+ <button class="btn-text" formType="submit">下一步</button>
+ </view>
+ <view class="po hide{{showView?'show':''}}">
+     <text class="text">{{views}}</text>
+ </view>
+ </form>
+</view>

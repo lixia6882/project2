@@ -1,0 +1,5 @@
+<view class="container">
+  <image class="userinfo-avatar" src="../../images/logo_red.png" background-size="cover"></image>
+  <text class="text1">版本: 1.0</text>
+  <text class="text2">©copyright2017联动优势电子商务有限公司版权所有</text>
+</view>

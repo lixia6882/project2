@@ -1,0 +1,19 @@
+.userinfo-avatar {
+  width: 221rpx;
+  height:221rpx;
+  margin: 0 auto;
+  margin-top: 180rpx;
+  margin-bottom: 90rpx;
+}
+.text1{
+  text-align: center;
+  font-size: 33rpx;
+  color: #333;
+  margin-top: 550rpx;
+}
+.text2{
+  font-size: 22rpx;
+  color: #999;
+  text-align: center;
+  margin-top: 30rpx;
+}

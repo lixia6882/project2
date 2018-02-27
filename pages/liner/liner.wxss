@@ -1,0 +1,86 @@
+page{
+  background: #f0f0f0;
+}
+.texts{
+  color: #5e9cc5;
+  font-size: 25rpx;
+  background: #fff;
+  display: inline-block;
+  padding: 16rpx;
+  margin: 16rpx 0;
+  border-radius: 25rpx;
+  border-bottom-left-radius: 0rem;
+  border-top-left-radius:0rem;
+}
+.Number{
+  width: 95%;
+  height: auto;
+  border:1px solid #e8e8e8;
+  background: #fff;
+  margin: 0 auto;
+  padding-bottom: 30rpx;
+
+}
+.times{
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 23rpx;
+  color: #303030;
+  border-bottom: 1px solid #e8e8e8;
+}
+.times text{
+  width: 25%;
+  display: inline-block;
+  height: 90rpx;
+  text-align: center;
+  position: relative;
+}
+.times .item.active:after{
+  content: "";
+  width: 60%;
+  display: block;
+  margin:0 auto;
+  position: absolute;
+  bottom: -1rpx;
+  left: 0;
+  right: 0;
+  height:2px;
+  background: #0198dd;
+}
+.fenxi{
+  font-size: 34rpx;
+  font-weight: bold;
+  line-height: 100rpx;
+  padding-left: 30rpx;
+}
+.times_text{
+  width: 100%;
+  height:123rpx;
+  background: #f0f0f0;
+  margin-bottom:20rpx;
+}
+.item_s{
+  width: 25%;
+  height: 100%;
+  float: left;
+  text-align: center;
+  line-height: 60rpx;
+  border-top: 1px solid #e8e8e8;
+}
+.item_s.active{
+  background: #fff;
+}
+.canvas{
+  width: 100%;
+  height: 210px;
+}
+.column,.ring,.line,.area{
+  width: 95%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  border:1px solid #e8e8e8;
+  background: #fff;
+  margin-bottom: 20rpx;
+}

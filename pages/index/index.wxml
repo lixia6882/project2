@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<view class="container">
+  <image src="../../images/merchant-_background.jpg" class="back"></image>
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="../../images/logo_red.png" background-size="cover"></image>
+  </view>
+  <form bindsubmit="formSubmit" bindreset="formReset">
+  <view class="usermotto">
+   <image src="../../images/username.png" class="username"></image>
+   <input type="number" placeholder="请输入手机号码" maxlength="11" placeholder-style="color:#8f8d8e" class="deng" bindinput="phoneInput"/>
+  </view>
+  <view class="usermotto">
+   <image src="../../images/pwd.png" class="username"></image>
+   <input password placeholder="请输入6-12位的密码" placeholder-style="color:#8f8d8e" class="deng" bindinput="passInput"/>
+  </view>
+  <view class="usermotto_auto">
+   <image src="../../images/23.png" class="username_auto"></image><text bindtap="bindpass">忘记密码</text>
+   
+  </view>
+  <view class="enter" bindtap="bindViewTap1">
+  <button class="enter_btn" bindtap="logIn">登录</button>
+  </view>
+  <view class="login" bindtap="bindViewTap">
+  注册
+  </view>
+  </form>
+  <view class="po hide{{showView?'show':''}}">
+     <text class="text">{{views}}</text>
+  </view>
+</view>

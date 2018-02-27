@@ -1,0 +1,22 @@
+<!--logs.wxml-->
+ <view class="loading hide{{hideView?'show':''}}">
+  <image src="../../images/loading.gif" class="loadings"></image>
+ </view>
+<view class="container log-list">
+ <image src="../../images/logo_gray.png" class="ima"></image>
+ <navigator open-type="navigateBack"></navigator>
+ <form bindsubmit="formSubmit" class="form">
+ <view class="number">
+   手机号码<input type="number" placeholder="请输入11位手机号码" placeholder-style="#333" maxlength="11" class="inputs" name="phone" value="{{phone}}"/>
+ </view>
+ <view class="xieyi">
+  <image src="{{imagesurl}}" class="imags" bindtap="changimg"></image>请阅读<text class="views" bindtap="deal">《掌财用户协议》</text>同意后进行下一步操作
+ </view>
+ <view class="next" bindtap="nest">
+  <button formType="submit" class="btns">下一步</button>
+ </view>
+ </form>
+ <view class="po hide{{showView?'show':''}}">
+     <text class="text">{{views}}</text>
+ </view>
+</view>

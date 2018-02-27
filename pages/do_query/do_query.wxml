@@ -1,0 +1,70 @@
+<view class="container">
+  <view class="MerName">
+  <view class="name">商户名：<text class="text-number">{{name}}</text></view>
+  <view class="number">终端号: <text class="text-number">{{name_id}}</text></view>
+  </view>
+  <view class="big-box" hidden="{{ishidden}}">
+    <view class="box">
+      <view class="times">
+        <picker mode="time" value="{{time}}" start="00:00" end="23:59" bindchange="bindTimeChange"> 
+          <view class="star-time"> 
+          {{time}} 
+          </view> 
+        </picker> 
+      <view class="liner"></view>
+      <picker mode="time" value="{{times}}" start="00:00" end="23:59" bindchange="bindTimeChanges"> 
+          <view class="enter-time"> 
+          {{times}} 
+          </view> 
+      </picker> 
+      </view>
+      <view class="number">
+      <input type="number" placeholder="请输入交易凭证号" class="number_a"/>
+      </view>
+      <view class="btn">
+      <button class="btns">查询</button>
+      </view>
+    </view>
+    <view class="message">
+    <view class="list1" wx:for="{{menus}}" wx:for-index="idx" wx:for-item="menu">
+       <text class="texts">流水号:{{menu.number}}</text>
+       <text class="texts">订单号:{{menu.number2}}</text>
+       <text class="texts">银行名称:{{menu.name}}</text>
+       <text class="texts">银行卡号:{{menu.number3}}</text>
+       <text class="end" bindtap="load">结算</text>
+    </view>
+    </view>
+  </view>
+  <view class="big-box" hidden="{{!ishidden}}">
+    <view class="box">
+      <view class="times">
+        <picker mode="time" value="{{time_ms}}" start="00:00" end="23:59" bindchange="bindTimeChange_ms"> 
+          <view class="star-time"> 
+          {{time_ms}} 
+          </view> 
+        </picker> 
+        <view class="liner"></view>
+        <picker mode="time" value="{{times_ms}}" start="00:00" end="23:59" bindchange="bindTimeChanges_ms"> 
+          <view class="enter-time"> 
+          {{times_ms}} 
+          </view> 
+      </picker> 
+      </view>
+      <view class="btn">
+      <button class="btns">查询</button>
+      </view>
+    </view>
+    <view class="message">
+    <view class="list1" wx:for="{{menus}}" wx:for-index="idx" wx:for-item="menu">
+       <text class="texts">流水号:{{menu.number}}</text>
+       <text class="texts">订单号:{{menu.number2}}</text>
+       <text class="texts">银行名称:{{menu.name}}</text>
+       <text class="texts">银行卡号:{{menu.number3}}</text>
+    </view>
+    </view>
+  </view>
+  <view class="footer" bindtap="query">
+   <view class="left ds{{showView?'dss':''}}" bindtap="query_a" id="0">当前查询</view>
+   <view class="left ds{{showViews?'dss':''}}" bindtap="query_b" id="1">历史查询</view>
+  </view>
+</view>

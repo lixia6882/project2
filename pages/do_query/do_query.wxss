@@ -1,0 +1,149 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  height:100%;
+  background: #f0f0f0;
+  position: relative;
+  overflow: hidden;
+}
+.big-box{
+ flex: 1;
+ margin-bottom: 127rpx;
+ display: -webkit-flex;
+ flex-direction: column;
+}
+.MerName{
+  width: 90%;
+  height: 160rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  padding: 0 20rpx;
+}
+.name{
+  border-bottom: 1px solid #ccc;
+  line-height: 80rpx;
+}
+.number{
+   line-height: 80rpx;
+}
+
+.footer{
+  width: 100%;
+  height: 126rpx;
+  line-height: 126rpx;
+  display: -webkit-flex;
+  background: #fff;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: #b3b3b3;
+}
+.left{
+  flex: 1;
+  text-align: center;
+}
+.ds{
+  border-top:2px solid #f23861;
+}
+.dss{
+  border-top: none;
+}
+.box{
+  width: 90%;
+  padding: 0 20rpx;
+  background: #fff;
+  margin: 0 auto;
+  margin-top: 20rpx;
+  border-radius: 20rpx;
+}
+.times{
+  width: 100%;
+  height: 75rpx;
+  margin-top: 15rpx;
+  display: -webkit-flex;
+
+}
+.star-time{
+  width: 200rpx;
+  background: #e5e5e5;
+  border-radius:20rpx 0rpx 0rpx 20rpx;
+  text-align: center;
+  line-height: 75rpx;
+  color: #e50237;
+}
+.enter-time{
+  width: 200rpx;
+  background: #e5e5e5;
+  border-radius:0rpx 20rpx 20rpx 0rpx;
+  text-align: center;
+  line-height: 75rpx;
+  color: #e50237;
+  justify-content: flex-end;
+}
+.liner{
+  flex: 1;
+  border-top:2px solid #e80036;
+  margin-top: 36rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.number{
+  width: 95%;
+  height: 75rpx;
+}
+.number_a{
+  width: 100%;
+  height: 75rpx;
+  border-radius:20rpx;
+  background: #e2e2e2;
+  margin-top: 15rpx;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.btn{
+  width: 100%;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+}
+.btns{
+  background: #f23861;
+  color: #fff;
+  height: 75rpx;
+  line-height: 75rpx;
+  border-radius: 20rpx;
+}
+.message{
+  flex: 1;
+  margin-top: 20rpx;
+  padding: 0 20rpx;
+  overflow: auto;
+}
+.texts{
+  display: block;
+  line-height: 63rpx;
+  padding-left: 20rpx;
+  font-size: 34rpx;
+}
+.list1{
+  width: 100%;
+  height:250rpx;
+  background: #fff;
+  border-radius: 20rpx;
+  margin-bottom: 20rpx;
+  position: relative;
+}
+.end{
+  position: absolute;
+  right: 30rpx;
+  top: 100rpx;
+  background: #e50237;
+  color: #fff;
+  padding: 20rpx;
+  border-radius: 20rpx;
+}
+.hide{
+  display: none;
+  }

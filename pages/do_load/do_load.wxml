@@ -1,0 +1,22 @@
+<!--pages/do_load/do_load.wxml-->
+<view class="container">
+ <view class="main">
+ <text class="up">上传小票:</text>
+ <view class="upload">
+   <image src="{{source}}" data-src="{{source}}" class="images1" bindtap="takePhotos"></image>
+   <text>上传小票信息</text>
+ </view>
+ </view>
+ <view class="btn">上传</view>
+ <view class="promp">
+ <text class="tex1">温馨提示</text>
+ <text class="tex2">您好, 您的消费卡触发了D0交易风控预警, 请提供以上照片完成身份认证, 认证成功后今日D0交易将自动到账。</text>
+ </view>
+</view>
+<view class="back hide{{showView?'show':''}}">
+  <view class="box">
+  <view class="list1" bindtap="readphoto">预览</view>
+  <view class="list2" bindtap="back">重新拍照</view>
+  <view class="list3" bindtap="cancel">取消</view>
+  </view>
+</view>

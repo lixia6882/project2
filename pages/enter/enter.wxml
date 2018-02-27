@@ -1,0 +1,25 @@
+<!--logs.wxml-->
+<view class="container log-list">
+ <image src="../../images/ban.png" class="images"></image>
+ <view class="widgets">
+    <block wx:for="{{Industry}}">
+      <view class="widgets__item">
+       <view class="widgets__info" bindtap="widgetsToggle" id="{{item.id}}" data-postId="{{item.merid}}">
+        商务姓名:<text class="widgets__info-name">{{item.merid}}</text>
+        <image src="../../images/3_02.gif" class="widgets__info-img"></image>
+       </view>
+       <view class="widgets__list open-{{(openId==item.id)?'true':'false'}}" data-text="{{item.merid}}">
+        <block wx:for="{{item.list}}">
+         <view class="widget" bindtap="changpage" data-text="{{item.phone}}">
+               终端号: <text class="widget__name">{{item.phone}}</text>
+          </view>
+        </block>
+
+
+
+
+       </view>
+      </view>
+    </block>
+ </view>
+</view>

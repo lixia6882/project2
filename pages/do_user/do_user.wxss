@@ -1,0 +1,15 @@
+/* pages/do_user/do_user.wxss */
+page{
+  padding: 0;
+}
+.container{
+  width: 100%;
+  height: 100%;
+  padding: 0 30rpx;
+  font-size: 36rpx;
+}
+.texts{
+  color: #f23861;
+  font-size: 40rpx;
+  text-align: center;
+}

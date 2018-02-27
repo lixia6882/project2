@@ -1,0 +1,8 @@
+<view class="container">
+ <view class="upload" bindtap="takePhoto">请点击此处拍照
+ <image src="{{img}}"></image>
+ </view>
+ <view class="look" bindtap="look">预览</view>
+ <view class="uploading" bindtap="uploading">上传</view>
+ <view class="po_bug hide{{showView?'show':''}}">{{views}}</view>
+</view>

@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/liner/liner",
+    "pages/home/home",
+    "pages/index/index",
+    "pages/classify/classify",
+    "pages/quit/quit",
+    "pages/chart/chart_page",
+    "pages/enter/enter",
+    "pages/do_mer_authlist/do_mer_authlist",
+    "pages/do_query/do_query",
+    "pages/preview/preview",
+    "pages/do_upload/do_upload",
+    "pages/logs/logs",
+    "pages/login/login",
+    "pages/do_mer_auth/do_mer_auth",
+    "pages/do_Us/do_Us",
+    "pages/do_user/do_user",
+    "pages/do_find/do_find",
+    "pages/do_verify/do_verify",
+    "pages/do_ver/do_ver",
+    "pages/do_load/do_load",
+    "pages/upload/upload"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": " 联动掌财公众号",
+    "backgroundColor": "#666"
+  },
+  "tabBar": {
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "selectedColor":"#f13861",
+    "list": [
+      {
+        "pagePath": "pages/enter/enter",
+        "text": "工作管理",
+        "iconPath": "images/gongzuoguanli.png",
+        "selectedIconPath": "images/gongzuoguanli1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "个人中心",
+        "iconPath": "images/gerenzhongxin.png",
+        "selectedIconPath": "images/gerenzhongxin1.png"
+      }
+    ]
+  },
+  "debug":true
+}

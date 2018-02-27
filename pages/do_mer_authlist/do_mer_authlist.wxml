@@ -1,0 +1,17 @@
+<view class="container">
+  <view class="commSlt">
+   选择查询商务
+   <image src="../../images/3_02.gif" class="imag_jian"></image>
+  </view>
+
+  <view class="commSlt">
+    <text>姓名/结算人:</text>
+    <input type="text" />
+  </view>
+
+  <picker bindchange="bindPickerChange" value="{{index}}" range="{{Industry}}" range-key="{{}}">
+    <view class="picker">
+      当前选择：{{ }}
+    </view>
+  </picker>
+</view>

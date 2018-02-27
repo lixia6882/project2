@@ -1,0 +1,35 @@
+<!--pages/do_load/do_load.wxml-->
+<view class="container">
+ <view class="main">
+ <text class="up">上传小票:</text>
+ <view class="upphoto">
+ <view class="upload uploads">
+   <image src="../../images/loadMsgBg.png" class="images1"></image>
+   <text>上传身份证正面</text>
+ </view>
+ <view class="upload uploads">
+   <image src="../../images/loadMsgBg.png" class="images1"></image>
+   <text>手持身份证正面</text>
+ </view>
+ </view>
+ </view>
+  <view class="main">
+ <text class="up">上传消费银行卡:</text>
+ <view class="upload uploads">
+   <image src="../../images/loadMsgBg.png" class="images1"></image>
+   <text>消费银行卡正面</text>
+ </view>
+ </view>
+  <view class="main">
+ <text class="up">上传小票:</text>
+ <view class="upload">
+   <image src="../../images/loadMsgBg.png" class="images1"></image>
+   <text>上传小票信息</text>
+ </view>
+ </view>
+ <view class="btn">上传</view>
+ <view class="promp">
+ <text class="tex1">温馨提示</text>
+ <text class="tex2">您好, 您的消费卡触发了D0交易风控预警, 请提供以上照片完成身份认证, 认证成功后今日D0交易将自动到账。</text>
+ </view>
+</view>

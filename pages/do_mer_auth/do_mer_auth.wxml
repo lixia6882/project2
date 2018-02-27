@@ -1,0 +1,36 @@
+<view class="container">
+  <view class="commSlt commSlts">
+   选择认证商务
+   <image src="../../images/3_02.gif" class="imag_jian"></image>
+  </view>
+  <view class="commSlt">
+    <image src="../../images/bitian@2x.png" class="icon"></image>
+    <text>姓名:</text>
+  </view>
+  <view class="commSlt">
+    <image src="../../images/bitian@2x.png" class="icon"></image>
+    <text>身份证号:</text>
+    <input type="text" />
+  </view>
+  <view class="commSlt">
+    <image src="../../images/bitian@2x.png" class="icon"></image>
+    <text>卡号:</text>
+    <input type="number" />
+  </view>
+  <view class="commSlt">
+    <image src="../../images/bitian@2x.png" class="icon"></image>
+    <text>银行预留手机号:</text>
+    <input type="number" />
+  </view>
+  <view class="commSlt">
+    <text>有效期:</text>
+    <input type="text" />
+  </view>
+  <view class="commSlt">
+    <text>CVV2:</text>
+    <input type="number" />
+  </view>
+  <view class="btn">
+  提交
+  </view>
+</view>

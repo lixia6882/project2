@@ -1,0 +1,26 @@
+<text class='texts'>数据演示小程序</text>
+<view class='Number'>
+  <view class='times'>
+    <text wx:for="{{time}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" bindtap='navbarTap'>{{item}}</text>
+  </view>
+  <view class='fenxi'>趋势分析</view>
+  <view class='times_text'>
+    <view wx:for="{{times}}" data-idx="{{index}}" class="item_s {{currentTabs==index ? 'active' : ''}}" bindtap='navbarTaps'>
+    <text style='color:#5ea6d6;'>{{item.number}}</text>
+    <text style='display:block;font-size:25rpx;color:#9a9a9a;'>{{item.text}}</text>
+    </view>
+  </view>
+
+</view>
+<view class='area'>
+  <canvas class="canvas" canvas-id="pieCanvas"></canvas>
+</view>
+<view class='line'>
+    <canvas class="canvas" canvas-id="pieCanvas_1"></canvas>
+</view>
+<view class='column'>
+    <canvas class="canvas" canvas-id="pieCanvas_2"></canvas>
+</view>
+<view class='ring'>
+    <canvas class="canvas" canvas-id="pieCanvas_3"></canvas>
+</view>

@@ -1,0 +1,16 @@
+.content {  
+  margin: 0 10px;  
+}
+button{
+  margin: 10px;
+}  
+text{
+  color: red;
+}
+.venues_list{
+  margin-top: 10px;
+  border-top: 1px solid #000;
+}
+.name{
+  border-top:1px solid #dcdcdc;
+}

@@ -1,0 +1,134 @@
+page{
+  display: flex;
+  flex-direction: column;
+  height:auto;
+  overflow: auto;
+  width: 100%;
+}
+.navbar{
+ flex: none;
+ display: flex;
+ background: #fff;
+}
+.navbar .item{
+  position: relative;
+  flex: auto;
+  text-align: center;
+  line-height:40px;
+  font-size: 14px;
+}
+.navbar .item.active{
+  color:#f0145a;
+}
+.navbar .item.active:after{
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height:2px;
+  background: #f0145a;
+}
+swiper {
+  height: 300rpx;
+}
+swiper-item image {
+  width: 100%;
+  height: 100%;
+}
+.navs{
+  display: flex;
+}
+.nav-item{
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.nav-image{
+  width: 80rpx;
+  height: 80rpx;
+}
+.nav-item text{
+  padding-top: 20rpx;
+  font-size: 25rpx;
+}
+/* 分割线 */
+.separate {
+  height: 15rpx;
+  background-color: #f2f2f2;
+}
+/*新品上架*/
+.category-title {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15rpx;
+  margin-bottom: 0rpx;
+}
+.category-title .name {
+  font-size: 40rpx;
+  text-align: center;
+  margin: 10rpx auto;
+}
+.line_flag {
+  width: 80rpx;
+  height: 4rpx;
+  display: inline-block;
+  margin: 20rpx auto;
+  background-color: gainsboro;
+  text-align: center;
+}
+image.head-img {
+  width: 100%;
+  height: 270rpx;
+}
+.goods_scroll{
+  display: flex;
+  white-space: nowrap; 
+  margin-top: 10px;
+}
+.goods-image{
+  width: 150rpx;
+  height: 150rpx;
+  display: block;
+  margin: 0 auto;
+}
+.goods-item{
+  width: 150px;
+  height: 100px;
+  display: inline-block;
+}
+.texts{
+  display: block;
+  font-size: 14px;
+  text-align: center;
+  line-height: 30px;
+}
+.p{
+  display: block;
+  color: #f0145a;
+  font-size: 14px;
+  text-align: center;
+}
+.new_goods_niew{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.new_goods_niew image{
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+}
+.new_goods_niew text{
+  font-size: 14px;
+  text-align: center;
+  line-height: 25px;
+}
+.new_goods_niew text:last-child{
+  color: #f0145a;
+}

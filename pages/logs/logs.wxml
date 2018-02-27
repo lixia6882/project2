@@ -1,0 +1,24 @@
+<!--logs.wxml-->
+<view class="container log-list">
+  <view class="do_us" bindtap="bindViewTap">
+   <image src="../../images/renzheng@3x.png" class="imag_ren"></image>
+   <image src="../../images/3_03.gif" class="imag_jian"></image>
+   <text>信用卡实名认证</text>
+  </view>
+  <view class="do_us" bindtap="bindViewTap1">
+   <image src="../../images/zhuangtai@3x.png" class="imag_ren"></image>
+   <image src="../../images/3_03.gif" class="imag_jian"></image>
+   <text>认证状态查询</text>
+  </view>
+  <view class="do_us" bindtap="callTap">
+   <image src="../../images/lianxikefu@3x.png" class="imag_ren"></image>
+   <image src="../../images/3_03.gif" class="imag_jian"></image>
+   <text>联系客服</text>
+  </view>
+  <view class="do_us" bindtap="bindViewTaps">
+   <image src="../../images/guanyuwomen@3x.png" class="imag_ren"></image>
+   <image src="../../images/3_03.gif" class="imag_jian"></image>
+   <text>关于我们</text>
+  </view>
+  <view class="back" bindtap="quit">安全退出</view>
+</view>

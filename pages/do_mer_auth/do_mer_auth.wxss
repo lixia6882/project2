@@ -1,0 +1,55 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #f0f0f0;
+}
+.commSlt{
+  width: 100%;
+  height:95rpx;
+  line-height: 95rpx;
+  padding-left: 43rpx;
+  position: relative;
+  background: #fff;
+  border-bottom: 1px solid #c1c1c1;
+  display: -webkit-flex;
+}
+.commSlts{
+  margin-top: 20rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  border: none;
+  margin-bottom: 20rpx;
+}
+.imag_jian{
+  width: 43rpx;
+  height: 24rpx;
+  position: absolute;
+  top: 40rpx;
+  left: 670rpx;
+}
+.icon{
+  width: 16rpx;
+  height: 18rpx;
+  margin-top:40rpx;
+}
+text{
+  margin-left: 10rpx;
+}
+input{
+  -webkit-box-flex: 1;
+  flex: 1;
+  height:95rpx;
+}
+.btn{
+  width: 80%;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #f23860;
+  color: #fff;
+  border-radius: 40rpx;
+  text-align: center;
+  margin: 130rpx auto 0;
+}

@@ -1,0 +1,25 @@
+/* pages/preview/preview.wxss */
+page{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+._container{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.preview{
+  width: 100%;
+  height: 100%;
+  background: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 100rpx 0;
+}
+.preview image{
+  width: 100%;
+  height: 100%;
+}

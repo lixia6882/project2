@@ -1,0 +1,13 @@
+<!--pages/preview/preview.wxml-->
+<view class="_container">
+  <button bindtap="photographFn">拍照</button>
+  <image src="{{pictureSrc}}" bindtap="previewFn"></image>
+   <view class="preview" wx:if="{{previewHide}}" bindtap="hideFn">
+    <image src="{{pictureSrc}}"></image>
+  </view> 
+  <picker bindchange="bindPickerChange" value="{{time}}" range="{{array}}"> 
+  <view class="picker"> 
+   国家：{{array[index]}} 
+  </view> 
+ </picker> 
+</view>
